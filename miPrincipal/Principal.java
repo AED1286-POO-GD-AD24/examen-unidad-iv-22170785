@@ -4,8 +4,6 @@ import clases.*;
 public class Principal {
     
     public static void main(String[] args) {
-           
-       
             Carrito<Producto> carrito = new Carrito<>(10);
     
             ProductoElectronico laptop = new ProductoElectronico("Laptop", 1200.00);
@@ -16,6 +14,5 @@ public class Principal {
     
             carrito.mostrarProductos();
             System.out.println("Total: $" + carrito.calcularTotal());
-       
     }
 }
